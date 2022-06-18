@@ -1,0 +1,17 @@
+{
+  "name": "servicio_web",
+  "version": "1.0.0",
+  "description": "web services using nodeJs with express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bryan Xavier Florentino Montero",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "inquirer": "^9.0.0",
+    "request": "^2.88.2"
+  }
+}
