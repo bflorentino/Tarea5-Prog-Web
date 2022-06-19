@@ -13,8 +13,8 @@ anteriores.
 ## Capturas de pantalla
 
 ### Peticion post al servidor con Postman. Almacenar un nuevo contacto
-[!Peticion Post](img/CapturaPost.png)
+![Peticion Post](img/CapturaPost.png)
 ### Peticion Get al servidor (desde un navegador). Obtiene todos los contactos 
-[!Peticion Get](img/Captura0Get.png)
+![Peticion Get](img/Captura0Get.png)
 ### Peticion Get al servidor (desde un navegador). Obtiene todos los contactos que coincidan con un patrón. En este caso la letra d
-[!Peticion GetPattern](img/CapturaGetByPattern.png)
+![Peticion GetPattern](img/CapturaGetByPattern.png)
