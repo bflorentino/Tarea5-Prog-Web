@@ -56,10 +56,10 @@ app.get('/contact', (req, res) => {
 })
 
 app.get('/contact/:searchPattern', (req, res) => {
-// Obtener todos los contactos que coincidan con un patrón de búsqueda dado (puede ser el inicio de una letra inicial o un contacto el cual su nombre empiece por dicho patrón).
+// Obtener todos los contactos que coincidan con un patrón de búsqueda dado
+// (puede ser el inicio de una letra inicial o un contacto el cual su nombre empiece por dicho patrón).
 
-     matchedContacts = contacts.filter(contact => 
-                                   contact.nombre.toLowerCase().startsWith(req.params.searchPattern.toLowerCase()));
+     matchedContacts = contacts.filter(contact => contact.nombre.toLowerCase().startsWith(req.params.searchPattern.toLowerCase()));
 
      const response = {
           data: matchedContacts,
